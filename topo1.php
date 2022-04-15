@@ -21,7 +21,7 @@ $nome_usuario = $_SESSION['nome'];
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-        <!-- Favicons -->
+        
     <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
     <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
     <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
@@ -37,7 +37,8 @@ $nome_usuario = $_SESSION['nome'];
                         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
                     });
                 });
-            });
+            }); // Função de buscar produto na tabela  
+        
     </script>
   </head>
 

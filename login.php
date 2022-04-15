@@ -1,6 +1,4 @@
 <?php
-
-
 $login = $_POST["email"];
 $senha = md5($_POST["senha"]); 
 
@@ -23,7 +21,7 @@ if(mysqli_num_rows($result) == 1){
     header("location:index.php");
 }else{
     $msg = "Login/Senha Invalidos!";
-    header("location:index.php?msg=".$msg);
+    header("location:entrar.php?msg=".$msg);
     
 }
 ?>

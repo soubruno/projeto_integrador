@@ -1,8 +1,8 @@
 mysql -u root
 
-create database pjt2;
+create database projeto_integrador;
 
-use pjt2;
+use projeto_integrador;
 
 create table usuario(
     idusuario int auto_increment primary key,
